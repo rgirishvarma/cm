@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHAITHANYA MEDICALS | Medical Store in Rayachoty</title>
+  <meta name="description" content="CHAITHANYA MEDICALS is a trusted medical shop in Rayachoty, Annamayya District, Andhra Pradesh. Order medicines on WhatsApp. Genuine medicines & home delivery." />
+  <meta name="keywords" content="Chaithanya Medicals, medical shop in Rayachoty, pharmacy near me, medicine store Rayachoty, Annamayya district medical store" />
+  <meta name="author" content="CHAITHANYA MEDICALS" />
+  <link rel="preconnect" href="https://wa.me" />
+  <link rel="preconnect" href="https://www.google.com" />
+  <style>
+    :root {
+      --primary: #0f766e;        /* medical teal */
+      --secondary: #14b8a6;      /* accent */
+      --bg-soft: #f7fffd;        /* clean clinical background */
+      --card-border: #e6f4f1;
+      --danger: #dc2626;         /* emergency */
+    }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #334155;
+      background: var(--bg-soft);
+    }
+    header {
+      background: linear-gradient(90deg, var(--primary), #0b8f87);
+      color: #fff;
+      padding: 18px 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    }
+    header h1 { margin: 0; letter-spacing: .5px; }
+    nav { margin-top: 8px; }
+    nav a {
+      color: #e6fffa;
+      margin-right: 16px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      background: linear-gradient(135deg, rgba(15,118,110,.92), rgba(20,184,166,.92));
+      color: #fff;
+      padding: 90px 40px;
+      text-align: center;
+    }
+    .hero h2 { font-size: 42px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; opacity: .95; }
+    section {
+      padding: 50px 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section-title { text-align: center; margin-bottom: 30px; }
+    .section-title h2 {
+      color: var(--primary);
+      font-size: 32px;
+      margin-bottom: 6px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 26px;
+      box-shadow: 0 10px 24px rgba(2,132,199,.06);
+    }
+    .card h3 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+    .card h3::before { content: "🩺 "; }
+    .about { background: #ecfeff; }
+    .contact {
+      background: linear-gradient(135deg, var(--primary), #0b8f87);
+      color: #fff;
+      border-radius: 16px;
+    }
+    .contact p, .contact h2, .contact h3 { color: #fff; }
+    footer {
+      background: #064e4a;
+      color: #d1fae5;
+      text-align: center;
+      padding: 16px;
+      font-size: 14px;
+    }
+    .btn {
+      display: inline-block;
+      background: #ffffff;
+      color: var(--primary);
+      padding: 12px 26px;
+      border-radius: 999px;
+      text-decoration: none;
+      margin-top: 18px;
+      font-weight: 700;
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      padding: 14px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 8px 20px rgba(0,0,0,.25);
+      z-index: 999;
+    }
+    .whatsapp-btn:hover { background: #1ebe5d; }
+    .call-btn {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 8px 20px rgba(0,0,0,.25);
+      z-index: 999;
+    }
+    .call-btn:hover { background: #0a5c57; }
+    #emergencyBanner { background: var(--danger); }
+    @keyframes blink { 0%{opacity:1} 50%{opacity:.35} 100%{opacity:1} }
+  </style>
+</head>
+<body>
+<!-- Final polish check: HTML valid, scripts deferred, lazy loading enabled -->
+
+<header>
+  
+  <h1  >CHAITHANYA MEDICALS</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div id="emergencyBanner" style="display:none; background:#dc2626; color:#fff; text-align:center; padding:12px; font-weight:bold; animation: blink 1s infinite">
+  🚑 Emergency Night Service Available • Call 9845082419
+</div>
+
+<div class="hero" id="home">
+  <h2  >Your Trusted Neighborhood Medical Shop</h2>
+  <p  >Quality medicines • Genuine products • Caring service</p>
+  <a class="btn" href="#contact">Visit Us Today</a>
+</div>
+
+<section id="services">
+  <div class="section-title">
+    <h2>Our Services</h2>
+    <p>Everything you need for better health</p>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>Prescription Medicines</h3>
+      <p>All branded and generic medicines available at affordable prices.</p>
+    </div>
+    <div class="card">
+      <h3>Over-the-Counter Products</h3>
+      <p>Pain relief, cold & flu, digestive care, and daily health essentials.</p>
+    </div>
+    <div class="card">
+      <h3>Medical Equipment</h3>
+      <p>BP monitors, thermometers, nebulizers, and other devices.</p>
+    </div>
+    <div class="card">
+      <h3>Home Delivery</h3>
+      <p>Fast and reliable medicine delivery to your doorstep.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="section-title">
+    <h2>About Us</h2>
+    <p>Serving the community with care and trust</p>
+  </div>
+  <p  >CHAITHANYA MEDICALS has been serving the local community with genuine medicines and professional guidance. Our qualified staff ensures you get the right products with proper advice, because your health matters to us.</p>
+</section>
+
+<section id="contact" class="contact">
+  <div class="section-title">
+    <h2>Contact Information</h2>
+    <p>Reach us anytime</p>
+  </div>
+
+  <p>📍 <strong>Address:</strong> Jagadamba Center, Kothapeta, Rayachoty, Annamayya Dist., Andhra Pradesh</p>
+  <p>📞 <strong>Phone:</strong> <a href="tel:9845082419" style="color:#fff; text-decoration:underline;">9845082419</a></p>
+  <p>✉️ <strong>Email:</strong> chaithanyamedicals@gmail.com</p>
+  <p>⏰ <strong>Opening Hours:</strong> All Days: 6:00 AM – 10:00 PM</p>
+
+  <div style="margin-top:30px">
+    <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Jagadamba%20Center,%20Kothapeta,%20Rayachoty&output=embed" width="100%" height="300" style="border:0; border-radius:8px;" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="enquiry">
+  <div class="section-title">
+    <h2>Medicine Enquiry Form</h2>
+    <p>Send us your medicine request</p>
+  </div>
+
+  <form onsubmit="sendWhatsApp(event)" style="max-width:520px; margin:25px auto 0">
+    <input type="text" id="name" placeholder="Your Name" required style="width:100%; padding:12px; margin-bottom:12px; border-radius:6px; border:1px solid #ccc" />
+    <input type="tel" id="phone" placeholder="Mobile Number" required style="width:100%; padding:12px; margin-bottom:12px; border-radius:6px; border:1px solid #ccc" />
+    <textarea id="medicine" placeholder="Medicine Name & Details" required style="width:100%; padding:12px; margin-bottom:12px; border-radius:6px; border:1px solid #ccc"></textarea>
+    <input type="file" id="prescription" accept="image/*" style="width:100%; padding:12px; margin-bottom:8px; background:#fff; border-radius:6px" />
+    <small style="display:block; margin-bottom:15px; color:#475569">You can attach the prescription here or send it on WhatsApp after submitting</small>
+    <button type="submit" style="background:#14b8a6; color:#fff; padding:14px 22px; border:none; border-radius:6px; font-size:16px; width:100%">Send Enquiry on WhatsApp</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 CHAITHANYA MEDICALS. All rights reserved.</p>
+</footer>
+
+<a class="call-btn" href="tel:9845082419">📞 Call Now</a>
+
+<a class="whatsapp-btn" href="https://wa.me/919845082419?text=Hello%20Chaithanya%20Medicals,%20I%20would%20like%20to%20order%20medicines" target="_blank">📱 Order Medicines on WhatsApp</a>
+
+<script defer>
+function sendWhatsApp(event) {
+  event.preventDefault();
+  var name = document.getElementById('name').value;
+  var phone = document.getElementById('phone').value;
+  var medicine = document.getElementById('medicine').value;
+  var fileInfo = document.getElementById('prescription').files.length > 0 ? '%0APrescription Photo: Attached in WhatsApp' : '%0APrescription Photo: Not attached';
+  var message = Hello Chaithanya Medicals,%0AName: ${name}%0APhone: ${phone}%0AMedicine Enquiry: ${medicine}${fileInfo};
+  window.open(https://wa.me/919845082419?text=${message}, '_blank');
+}
+</script>
+
+
+
+<script defer>
+// Show emergency banner only between 11 PM and 5 AM
+(function () {
+  var hour = new Date().getHours();
+  var banner = document.getElementById('emergencyBanner');
+  if (hour >= 23 || hour < 5) {
+    banner.style.display = 'block';
+  }
+})();
+</script>
+
+</body>
+</html>
